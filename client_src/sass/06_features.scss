@@ -1,0 +1,37 @@
+.features {
+	padding: 7rem 0;
+
+	&__item {
+		@include mobile {
+			margin-bottom: 2rem;
+		}
+		@include desktop {
+			margin-bottom: 0;
+		}
+	}
+	&__name {
+		font-size: $fs;
+		line-height: 2.2rem;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 0;
+
+		&--pink {
+			color: $pink;
+		}
+		&--blue {
+			color: $blue;
+		}
+		&--green {
+			color: $green;
+		}
+		&--yellow {
+			color: $yellow;
+		}
+	}
+	p {
+		font-weight: 300;
+		text-align: center;
+		line-height: 2.2rem;
+	}
+}

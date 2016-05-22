@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,300,400italic);
+html {
+    font-size: 10px;
+}
+
+body {
+    min-width: 32rem;
+    font-family: 'Rubik', sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.cases:before, .contacts:before, .footer:before {
+    position: absolute;
+    display: block;
+    content: '';
+    top: -5rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+@media only screen and (min-width: 320px) {
+    .cases:before, .contacts:before, .footer:before {
+        width: 120%;
+        left: -10%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .cases:before, .contacts:before, .footer:before {
+        width: 110%;
+        left: -5%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .cases:before, .contacts:before, .footer:before {
+        width: 104%;
+        left: -2%;
+    }
+}
+
+p, h1, h2, h3, h4, h5, h6, a, li {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #504f4f;
+    margin: 0 0 1rem;
+}
+
+h1 {
+    font-size: 6.5rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.2rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
+.features {
+    padding: 7rem 0;
+}
+@media only screen and (min-width: 320px) {
+    .features__item {
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .features__item {
+        margin-bottom: 0;
+    }
+}
+.features__name {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.features__name--pink {
+    color: #9b1a48;
+}
+.features__name--blue {
+    color: #22aaba;
+}
+.features__name--green {
+    color: #1db567;
+}
+.features__name--yellow {
+    color: #d9da48;
+}
+.features p {
+    font-weight: 300;
+    text-align: center;
+    line-height: 2.2rem;
+}
+
+.cases {
+    position: relative;
+    min-height: 45.5rem;
+    background: #eee;
+    margin: 5rem 0;
+}
+.cases:before {
+    background: #eee;
+}
+.cases:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 104%;
+    bottom: -5rem;
+    height: 10rem;
+    background: #eee;
+    border-radius: 50%;
+}
+@media only screen and (min-width: 320px) {
+    .cases:after {
+        width: 120%;
+        left: -10%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .cases:after {
+        width: 110%;
+        left: -5%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .cases:after {
+        width: 104%;
+        left: -2%;
+    }
+}
+
+.service {
+    width: 100%;
+    height: 39rem;
+    background: url('../images/bg-pink.jpg') repeat top center;
+    margin-top: -5rem;
+    padding: 15rem 0;
+}
+.service__headline {
+    max-width: 86rem;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 3.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 320px) {
+    .service {
+        height: auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .service {
+        background-size: 100% auto;
+    }
+}
+
+.contacts {
+    position: relative;
+}
+.contacts:before {
+    background: #fff;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 9.2rem;
+    text-align: center;
+    background: #eee;
+    margin-top: 5rem;
+}
+.footer__logo {
+    display: inline-block;
+    position: relative;
+    z-index: 99;
+    margin: 0;
+    margin-top: -4rem;
+}
+.footer:before {
+    background: #eee;
+}
+/*# sourceMappingURL=style.css.map */

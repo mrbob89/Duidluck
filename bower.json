@@ -1,0 +1,22 @@
+{
+  "name": "duidluck",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "bobo89 <romanboboshko89@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client_src/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}

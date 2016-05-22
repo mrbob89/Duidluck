@@ -1,0 +1,33 @@
+.cases {
+	position: relative;
+	min-height: 45.5rem;
+	background: #eee;
+	margin: 5rem 0;
+	
+	&:before {
+		background: #eee;
+	}
+	&:after {
+		position: absolute;
+		display: block;
+		content: "";
+		width: 104%;
+		bottom: -5rem;
+		height: 10rem;
+		background: #eee;
+		border-radius: 50%;
+
+		@include mobile {
+			width: 120%;
+			left: -10%;
+		}
+		@include tablet {
+			width: 110%;
+			left: -5%;
+		}
+		@include desktop {
+			width: 104%;
+			left: -2%;
+		}
+	}
+}

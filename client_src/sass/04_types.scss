@@ -1,0 +1,25 @@
+p, h1, h2, h3, h4, h5, h6, a, li {
+	font-size: $fs;
+	font-weight: 400;
+	color: $text-color; 
+	margin: $text-margin;
+}
+h1 {
+	font-size: $h1;
+	font-weight: 400
+}
+h2 {
+	font-size: $h2;
+}
+h3 {
+	font-size: $h3;
+}
+h4 {
+	font-size: $h4;
+}
+h5 {
+	font-size: $h5;
+}
+h6 {
+	font-size: $h6;
+}
