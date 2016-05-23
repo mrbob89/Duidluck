@@ -9,6 +9,28 @@
 			margin-bottom: 0;
 		}
 	}
+
+	&__icon {
+		width: 19rem;
+		height: 19rem;
+		border-radius: 50%;
+		margin: 0 auto 2.2rem;
+		padding: 1.8rem;
+
+		&--pink {
+			border: 2px solid lighten($pink, 40%);
+		}
+		&--blue {
+			border: 2px solid lighten($blue, 40%);
+		}
+		&--green {
+			border: 2px solid lighten($green, 40%);
+		}
+		&--yellow{
+			border: 2px solid lighten($yellow, 30%);
+		}
+	}
+
 	&__name {
 		font-size: $fs;
 		line-height: 2.2rem;

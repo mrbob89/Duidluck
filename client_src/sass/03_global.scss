@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,300,400italic);
 
 html {
+	box-sizing: border-box;
 	font-size: $html-size-base;
+}
+*, *::after, *::before {
+  box-sizing: inherit;
 }
 body {
 	min-width: 32rem;
@@ -11,8 +15,10 @@ body {
 }
 
 .nopadding {
-	padding: 0 !important;
-	margin: 0 !important;
+	@include tablet {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
 }
 
 .cases, .contacts, .footer {
