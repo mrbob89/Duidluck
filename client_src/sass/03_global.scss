@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik:400,300,400italic);
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,400italic,300,700);
 
 html {
 	box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
 }
 
 .nopadding {
-	@include tablet {
+	@include desktop {
 		padding: 0 !important;
 		margin: 0 !important;
 	}
@@ -43,4 +43,12 @@ body {
 			left: -2%;
 		}
 	}
+}
+
+.show {
+	display: block !important;
+	opacity: 1 !important;
+}
+.hide {
+	opacity: 0;
 }

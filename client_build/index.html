@@ -13,8 +13,13 @@
 
 	<!-- Bootstrap v3.3.4 Grid Styles -->
 	<link rel="stylesheet" href="libs/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/owl.carousel.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
 </head>
 
@@ -23,7 +28,29 @@
 		<div class="container">
 			
 			<div class="top-navigation">
-				
+				<div class="row">
+					<div class="col-xs-12 col-md-9 nopadding   top-navigation--left">
+						<a href="index.html" class="logo-top"><img src="images/logo-top.png" alt=""></a>
+						<nav class="main-menu">
+							<ul class="main-menu__list">
+								<li class="main-menu__item"><a href="#" class="main-menu__link active">Ons idee</a></li>
+								<li class="main-menu__item"><a href="#" class="main-menu__link">Producten</a></li>
+								<li class="main-menu__item"><a href="#" class="main-menu__link">Diensten</a></li>
+								<li class="main-menu__item"><a href="#" class="main-menu__link">Branches</a></li>
+								<li class="main-menu__item"><a href="#" class="main-menu__link">Cases</a></li>
+								<li class="main-menu__item"><a href="#" class="main-menu__link">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-xs-12 col-md-3  top-navigation--right">
+						<ul class="langs">
+							<li class="langs__item"><a href="#" class="langs__link">NL</a></li>
+							<li class="langs__item"><a href="#" class="langs__link">ENG</a></li>
+							<li class="langs__item"><a href="#" class="langs__link">DU</a></li>
+						</ul>
+						<a href="#" class="shop">Shop</a>
+					</div>
+				</div>
 			</div>
 			
 			<div class="header__content">
@@ -32,12 +59,15 @@
 						<h1><span>Duidluck</span> audiovisueel presenteren</h1>
 						<p>We realiseren professionele presentatie- en werkruimtes, inclusief lichtplannen, software en de nieuwste schermen.</p>
 
-						<a href="#" class="header__link">audiovisueel</a>
-						<a href="#" class="header__link">ict</a>
-						<a href="#" class="header__link">diensten</a>
+						<a href="#" class="header__link">audiovisueel <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+						<a href="#" class="header__link">ict <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+						<a href="#" class="header__link">diensten <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 					</div>
 					<div class="col-xs-12 col-sm-7  header__picture">
-						<svg class="line-drawing" id="ipad" width="100%" height="600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+						<div class="header__ipad">	
+							<img src="images/ipad.png" alt="iPad" />
+						</div>
+						<svg class="line-drawing" id="ipad" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
 							<path d="m 119.21227,317.3823 c -14.7712,15.1851 5.88505,25.59207 5.88505,25.59207 0.40139,0.20208 1.05981,0.52884 1.46365,0.72599 L 416.1869,485.12665 c 0.40383,0.19714 1.05955,0.52933 1.45709,0.7385 0,0 9.89696,5.20239 19.33671,5.20239 10.02979,0 21.16627,-6.20065 21.16627,-6.20065 0.39239,-0.21867 1.03419,-0.57756 1.42577,-0.79787 L 875.52126,250.20545 c 0.39157,-0.22029 1.01766,-0.60506 1.39068,-0.85502 0,0 3.76458,-2.52182 6.28676,-5.9447 4.64984,-6.31148 4.67435,-16.20216 -6.96533,-21.61914" />
 							<path d="m 575.54015,111.04772 c 0.42726,0.13914 1.12167,0.38012 1.54344,0.53508 l 295.83425,108.82565 c 0.42173,0.15492 1.11261,0.40654 1.53524,0.55877 0,0 8.74562,3.15059 8.74562,7.68883 0,4.90148 -6.23222,7.96165 -6.23222,7.96165 -0.40304,0.19795 -1.05387,0.53972 -1.44597,0.75944 L 459.57383,470.45511 c -0.39182,0.21977 -1.02655,0.59091 -1.41001,0.8251 0,0 -10.10904,6.17208 -21.18286,6.17208 -11.34614,0 -20.00816,-4.0849 -20.00816,-4.0849 -0.40628,-0.19138 -1.06961,-0.5089 -1.4737,-0.70524 L 123.6865,330.99352 c -0.40409,-0.19636 -1.05544,-0.53646 -1.44756,-0.75595 0,0 -5.53406,-3.09773 -5.53406,-8.40769 0,-4.01646 6.48005,-7.1404 6.48005,-7.1404 0.40464,-0.19523 1.06771,-0.51303 1.47317,-0.70637 L 548.2304,111.96156 c 0.40544,-0.19333 1.07644,-0.49396 1.49058,-0.66796 0,0 5.62258,-2.36114 13.70077,-2.36114 5.62771,2.8e-4 12.1184,2.11529 12.1184,2.11529 l 0,-3e-5 z" />
 							<path d="m 543.26166,127.71414 c 0.40435,-0.19552 1.07938,-0.22491 1.4993,-0.0657 l 293.28845,111.24782 c 0.41989,0.15925 0.4425,0.46837 0.0499,0.68649 L 460.50648,449.50474 c -0.39264,0.21839 -1.04619,0.23966 -1.45219,0.0473 L 166.04957,310.69751 c -0.406,-0.1925 -0.40736,-0.50975 -0.002,-0.7055 L 543.26166,127.71414 z" />
@@ -52,6 +82,11 @@
 						</svg>
 					</div>
 				</div>
+			</div>
+
+			<div class="header__go-down">
+				<a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+				<p>duidluck voor u</p>
 			</div>
 		</div>
 	</header>
@@ -105,7 +140,33 @@
 
 	<div class="cases">
 		<div class="container">
-			
+			<h2>cases</h2>
+			<div class="owl-carousel cases__carousel">
+				<div class="cases__item">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<img src="images/slide-pic.jpg" alt="Slide-1" class="img-responsive">
+						</div>
+						<div class="col-xs-12 col-sm-6 cases__content">
+							<h3>Touchscreen voor Ministerie van Buitenlandse zaken en Koninkrijksrelaties</h3>
+							<p>In opdracht van het Ministerie van Binnenlandse zaken heeft Duidluck een 72 inch LG LED touchscreen geleverd op een Ergo XS mobiel onderstel. Het ministerie zal deze slimme toepassing gebruiken voor hun 'Summerschool'. </p>
+							<a href="#">lees meer</a>
+						</div>
+					</div>
+				</div>
+				<div class="cases__item">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<img src="images/slide-pic.jpg" alt="Slide-1" class="img-responsive">
+						</div>
+						<div class="col-xs-12 col-sm-6 cases__content">
+							<h3>Touchscreen voor Ministerie van Buitenlandse zaken en Koninkrijksrelaties</h3>
+							<p>In opdracht van het Ministerie van Binnenlandse zaken heeft Duidluck een 72 inch LG LED touchscreen geleverd op een Ergo XS mobiel onderstel. Het ministerie zal deze slimme toepassing gebruiken voor hun 'Summerschool'. </p>
+							<a href="#">lees meer</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -159,16 +220,12 @@
 		</div>
 	</footer>
 
-	<!--[if lt IE 9]>
-	<script src="libs/html5shiv/es5-shim.min.js"></script>
-	<script src="libs/html5shiv/html5shiv.min.js"></script>
-	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="libs/respond/respond.min.js"></script>
-	<![endif]-->
-
 	<!-- Load Scripts Start -->
 	<script>var scr = {"scripts":[
 		{"src" : "libs/jquery.min.js", "async" : false},
+		{"src" : "libs/owl.carousel.min.js", "async" : false},
+		{"src" : "libs/classie.js", "async" : false},
+		{"src" : "libs/svganimations.js", "async" : false},
 		{"src" : "js/all.js", "async" : false}
 		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 	</script>

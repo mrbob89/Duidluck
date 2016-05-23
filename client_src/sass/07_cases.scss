@@ -1,8 +1,47 @@
 .cases {
 	position: relative;
 	min-height: 45.5rem;
+	text-align: center;
 	background: #eee;
 	margin: 5rem 0;
+
+	h2 {
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		font-size: $h4;
+		font-weight: 300;
+		text-align: center;
+		text-transform: uppercase;
+		color: #888;
+		margin-top: -1.8rem;
+		margin-bottom: 8.3rem;
+		z-index: 9;
+		padding: 1.3rem 5.4rem;
+		border: 2px solid #737274;
+
+		&:after, &:before {
+			display: block;
+			content: "";
+			position: absolute;
+		}
+		&:after {
+			top: -5.7rem;
+			left: 50%;
+			width: 1px;
+			height: 5.6rem;
+			background: #888;
+		}
+		&:before {
+			top: -7.9rem;
+			left: 50%;
+			width: 2.2rem;
+			height: 2.2rem;
+			border-radius: 50%;
+			border: 1px solid #888;
+			margin-left: -1.1rem;
+		}
+	}
 	
 	&:before {
 		background: #eee;
@@ -29,5 +68,58 @@
 			width: 104%;
 			left: -2%;
 		}
+	}
+
+	&__carousel {
+		@include desktop {
+			max-width: 84%;
+			margin: 0 auto;
+		}
+	}
+
+	&__item {
+		h3 {
+			font-size: $h5;
+			font-weight: 400;
+			line-height: 2.2rem;
+			text-transform: uppercase;
+			color: $pink;
+			margin-bottom: 2.2rem;
+		}
+		p {
+			font-size: $fs;
+			font-weight: 300;
+			line-height: 2.2rem;
+			margin-bottom: 2.2rem;
+		}
+		a {
+			font-size: $fs;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: $pink;
+		}
+	}
+	&__content {
+		text-align: left;
+		padding-top: 2.8rem;
+	}
+}
+
+.owl-dots {
+	padding-top: 5rem;
+	text-align: center;
+}
+.owl-dot {
+	display: inline-block;
+	vertical-align: top;
+	width: 1rem;
+	height: 1rem;
+	border: 1px solid #4d4c4f;
+	border-radius: 50%;
+	margin: 0 3px;
+
+	&.active {
+		background: $pink;
+		border: 1px solid $pink;
 	}
 }
